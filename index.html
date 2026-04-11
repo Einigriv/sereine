@@ -370,6 +370,7 @@
 
         // Simulate submission (replace with real fetch/XHR as needed)
         const btn = form.querySelector('.btn-submit');
+        const originalLabel = btn.textContent;
         btn.disabled = true;
         btn.textContent = 'Sending…';
 
@@ -377,7 +378,7 @@
           form.reset();
           toast.classList.add('show');
           btn.disabled = false;
-          btn.textContent = btn.dataset.label || 'Send';
+          btn.textContent = originalLabel;
 
           // Hide toast after 6 s
           setTimeout(function () { toast.classList.remove('show'); }, 6000);
