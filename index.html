@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Sereine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Header ──────────────────────────────────────────── -->
+  <header>
+    <div class="navbar">
+      <a href="#" class="logo" aria-label="Sereine home">
+        <span class="logo-icon" aria-hidden="true">
+          <!-- wave / calm icon -->
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 12 Q6 7 10 12 Q14 17 18 12 Q20 9.5 22 12" stroke="#fff" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          </svg>
+        </span>
+        <span class="logo-name">Sereine</span>
+      </a>
+      <nav aria-label="Page sections">
+        <a href="#assistance">Assistance</a>
+        <a href="#marketing">Marketing</a>
+        <a href="#legal">Legal</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Hero ────────────────────────────────────────────── -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <span class="hero-eyebrow">Contact</span>
+    <h1 id="hero-heading">How can we&nbsp;help you?</h1>
+    <p>Reach out to our dedicated teams — whether you need support, want to work with us, or have a legal inquiry, we're here for you.</p>
+  </section>
+
+  <!-- ── Quick-jump nav ──────────────────────────────────── -->
+  <nav class="section-nav" aria-label="Jump to section">
+    <a href="#assistance" class="assist">
+      <!-- headset icon -->
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3z"/><path d="M3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+      Assistance
+    </a>
+    <a href="#marketing" class="market">
+      <!-- megaphone icon -->
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
+      Marketing
+    </a>
+    <a href="#legal" class="legal">
+      <!-- shield icon -->
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Legal
+    </a>
+  </nav>
+
+  <!-- ── Main content ─────────────────────────────────────── -->
+  <main class="container">
+
+    <!-- ╔══════════════════════════════════════════════╗ -->
+    <!-- ║  ASSISTANCE                                  ║ -->
+    <!-- ╚══════════════════════════════════════════════╝ -->
+    <section id="assistance" class="contact-section" aria-labelledby="assist-heading">
+      <div class="section-header">
+        <span class="dot" style="background:var(--clr-assist)" aria-hidden="true"></span>
+        <h2 id="assist-heading">Assistance &amp; Support</h2>
+      </div>
+
+      <div class="cards-grid">
+        <!-- FAQ -->
+        <article class="card assist">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+          </div>
+          <h3>FAQ &amp; Help Center</h3>
+          <p>Browse our knowledge base for quick answers to the most common questions about Sereine.</p>
+          <a href="#support-form" class="btn" aria-label="Browse Help Center">Browse Help Center</a>
+        </article>
+
+        <!-- Live chat -->
+        <article class="card assist">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </div>
+          <h3>Live Chat</h3>
+          <p>Chat with a support agent in real time — available Monday to Friday, 9 am – 6 pm CET.</p>
+          <a href="mailto:support@sereine.app" class="btn">Start Chat</a>
+        </article>
+
+        <!-- Email support -->
+        <article class="card assist">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <h3>Email Support</h3>
+          <p>Send us an email and we'll get back to you within one business day.</p>
+          <a href="mailto:support@sereine.app" class="btn">support@sereine.app</a>
+        </article>
+      </div>
+
+      <!-- Support contact form -->
+      <div class="form-card" id="support-form">
+        <h3>Send a Support Request</h3>
+        <form id="form-assist" novalidate>
+          <div class="form-grid">
+            <div>
+              <label for="assist-name">Full name</label>
+              <input type="text" id="assist-name" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div>
+              <label for="assist-email">Email address</label>
+              <input type="email" id="assist-email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div class="full">
+              <label for="assist-topic">Topic</label>
+              <select id="assist-topic" name="topic" required>
+                <option value="" disabled selected>Select a topic…</option>
+                <option>Account &amp; Login</option>
+                <option>App Crash or Bug</option>
+                <option>Subscription &amp; Billing</option>
+                <option>Feature Request</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="full">
+              <label for="assist-message">Message</label>
+              <textarea id="assist-message" name="message" placeholder="Describe your issue…" required></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn-submit">Send Request</button>
+            <span class="form-note">We typically reply within 24 hours.</span>
+          </div>
+          <div class="toast" id="toast-assist" role="alert" aria-live="polite">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Your request has been sent! We'll be in touch shortly.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <hr class="section-divider" aria-hidden="true" />
+
+    <!-- ╔══════════════════════════════════════════════╗ -->
+    <!-- ║  MARKETING                                   ║ -->
+    <!-- ╚══════════════════════════════════════════════╝ -->
+    <section id="marketing" class="contact-section" aria-labelledby="market-heading">
+      <div class="section-header">
+        <span class="dot" style="background:var(--clr-marketing)" aria-hidden="true"></span>
+        <h2 id="market-heading">Marketing &amp; Partnerships</h2>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Press -->
+        <article class="card market">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10l6 6v8a2 2 0 0 1-2 2z"/><polyline points="17 1 17 7 23 7"/><line x1="9" y1="15" x2="15" y2="15"/><line x1="9" y1="11" x2="11" y2="11"/>
+            </svg>
+          </div>
+          <h3>Press &amp; Media</h3>
+          <p>Journalists, bloggers and media professionals — download our press kit or pitch a story.</p>
+          <a href="mailto:press@sereine.app" class="btn">press@sereine.app</a>
+        </article>
+
+        <!-- Influencer -->
+        <article class="card market">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Influencer &amp; Creator Program</h3>
+          <p>Collaborate with us to share mindfulness and wellness content with your audience.</p>
+          <a href="mailto:creators@sereine.app" class="btn">creators@sereine.app</a>
+        </article>
+
+        <!-- Business partnerships -->
+        <article class="card market">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+            </svg>
+          </div>
+          <h3>Business Partnerships</h3>
+          <p>Interested in co-marketing, B2B licensing or integrating Sereine into your platform?</p>
+          <a href="mailto:partnerships@sereine.app" class="btn">partnerships@sereine.app</a>
+        </article>
+      </div>
+
+      <!-- Marketing contact form -->
+      <div class="form-card">
+        <h3>Marketing Inquiry</h3>
+        <form id="form-market" novalidate>
+          <div class="form-grid">
+            <div>
+              <label for="market-name">Full name</label>
+              <input type="text" id="market-name" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div>
+              <label for="market-email">Work email</label>
+              <input type="email" id="market-email" name="email" placeholder="jane@company.com" required />
+            </div>
+            <div>
+              <label for="market-company">Company / Organisation</label>
+              <input type="text" id="market-company" name="company" placeholder="Acme Inc." />
+            </div>
+            <div>
+              <label for="market-type">Inquiry type</label>
+              <select id="market-type" name="type" required>
+                <option value="" disabled selected>Select…</option>
+                <option>Press / Media</option>
+                <option>Influencer / Creator</option>
+                <option>Business Partnership</option>
+                <option>Advertising</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="full">
+              <label for="market-message">Message</label>
+              <textarea id="market-message" name="message" placeholder="Tell us about your proposal…" required></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn-submit" style="background:var(--clr-marketing)">Send Inquiry</button>
+            <span class="form-note">Our marketing team will review your request.</span>
+          </div>
+          <div class="toast" id="toast-market" role="alert" aria-live="polite">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Your inquiry has been sent! We'll be in touch soon.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <hr class="section-divider" aria-hidden="true" />
+
+    <!-- ╔══════════════════════════════════════════════╗ -->
+    <!-- ║  LEGAL                                       ║ -->
+    <!-- ╚══════════════════════════════════════════════╝ -->
+    <section id="legal" class="contact-section" aria-labelledby="legal-heading">
+      <div class="section-header">
+        <span class="dot" style="background:var(--clr-legal)" aria-hidden="true"></span>
+        <h2 id="legal-heading">Legal</h2>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Privacy / GDPR -->
+        <article class="card legal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+            </svg>
+          </div>
+          <h3>Privacy &amp; Data Requests</h3>
+          <p>Exercising GDPR rights (access, deletion, portability) or submitting a data-processing query.</p>
+          <a href="mailto:privacy@sereine.app" class="btn">privacy@sereine.app</a>
+        </article>
+
+        <!-- Copyright -->
+        <article class="card legal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M14.83 9.17A4 4 0 1 0 9.17 14.83"/>
+            </svg>
+          </div>
+          <h3>Copyright &amp; IP</h3>
+          <p>Report copyright infringement, submit a DMCA takedown notice or raise an IP concern.</p>
+          <a href="mailto:copyright@sereine.app" class="btn">copyright@sereine.app</a>
+        </article>
+
+        <!-- Legal notices -->
+        <article class="card legal">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3>Legal Notices</h3>
+          <p>Court summons, regulatory inquiries, and official legal correspondence for Sereine SAS.</p>
+          <a href="mailto:legal@sereine.app" class="btn">legal@sereine.app</a>
+        </article>
+      </div>
+
+      <!-- Legal contact form -->
+      <div class="form-card">
+        <h3>Submit a Legal Request</h3>
+        <form id="form-legal" novalidate>
+          <div class="form-grid">
+            <div>
+              <label for="legal-name">Full name</label>
+              <input type="text" id="legal-name" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div>
+              <label for="legal-email">Email address</label>
+              <input type="email" id="legal-email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div>
+              <label for="legal-org">Organisation (optional)</label>
+              <input type="text" id="legal-org" name="org" placeholder="Law Firm / Authority" />
+            </div>
+            <div>
+              <label for="legal-type">Request type</label>
+              <select id="legal-type" name="type" required>
+                <option value="" disabled selected>Select…</option>
+                <option>Privacy / GDPR</option>
+                <option>Copyright / DMCA</option>
+                <option>Legal Notice</option>
+                <option>Terms of Service</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="full">
+              <label for="legal-message">Details</label>
+              <textarea id="legal-message" name="message" placeholder="Describe your legal request or inquiry…" required></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn-submit" style="background:var(--clr-legal)">Submit Request</button>
+            <span class="form-note">Legal requests are handled by our counsel within 5 business days.</span>
+          </div>
+          <div class="toast" id="toast-legal" role="alert" aria-live="polite">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Your request has been submitted successfully.
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Sereine SAS &nbsp;·&nbsp;
+      <a href="#legal">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="#legal">Terms of Service</a> &nbsp;·&nbsp;
+      <a href="#assistance">Support</a>
+    </p>
+  </footer>
+
+  <!-- ── Minimal JS: form toast + footer year ─────────────── -->
+  <script>
+    // Update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Generic form submit handler — shows toast, resets form
+    function attachFormHandler(formId, toastId) {
+      const form  = document.getElementById(formId);
+      const toast = document.getElementById(toastId);
+      if (!form) return;
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        // Basic HTML5 validation check
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+
+        // Simulate submission (replace with real fetch/XHR as needed)
+        const btn = form.querySelector('.btn-submit');
+        const originalLabel = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = 'Sending…';
+
+        setTimeout(function () {
+          form.reset();
+          toast.classList.add('show');
+          btn.disabled = false;
+          btn.textContent = originalLabel;
+
+          // Hide toast after 6 s
+          setTimeout(function () { toast.classList.remove('show'); }, 6000);
+        }, 900);
+      });
+    }
+
+    attachFormHandler('form-assist', 'toast-assist');
+    attachFormHandler('form-market', 'toast-market');
+    attachFormHandler('form-legal',  'toast-legal');
+  </script>
+
+</body>
+</html>
