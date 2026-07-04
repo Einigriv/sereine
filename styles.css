@@ -7,6 +7,7 @@
   --clr-primary:   #9B8EC4;
   --clr-primary-d: #7c6fa8;
   --clr-text:      #1A1F3D;
+  --clr-text-soft: #374151;
   --clr-muted:     #6b7280;
   --clr-border:    #E5E7EB;
   --clr-accent-bg: #F5EEFF;
@@ -142,7 +143,7 @@ header {
 
 .ps-body p {
   font-size: .9rem;
-  color: #374151;
+  color: var(--clr-text-soft);
   line-height: 1.6;
 }
 
@@ -163,7 +164,7 @@ header {
 
 .contact-card p {
   font-size: .9rem;
-  color: #374151;
+  color: var(--clr-text-soft);
   margin-bottom: .9rem;
 }
 
