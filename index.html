@@ -127,6 +127,24 @@
 
     </div>
 
+    <!-- Contact form -->
+    <section class="contact-card" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact & Support</h2>
+      <p>Pour poser vos questions ou demander de l'aide, utilisez ce formulaire :</p>
+      <form class="contact-form" action="mailto:sereine.app@proton.me" method="post" enctype="text/plain">
+        <label for="contact-name">Nom</label>
+        <input id="contact-name" name="name" type="text" required />
+
+        <label for="contact-email">Email</label>
+        <input id="contact-email" name="email" type="email" required />
+
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
     <!-- Last updated -->
     <p class="privacy-updated">Dernière mise à jour : mars 2026</p>
 

@@ -146,6 +146,77 @@ header {
   line-height: 1.6;
 }
 
+/* Contact form */
+.contact-card {
+  margin-top: 1.5rem;
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+}
+
+.contact-card h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: .4rem;
+}
+
+.contact-card p {
+  font-size: .9rem;
+  color: #374151;
+  margin-bottom: .9rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+.contact-form label {
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid var(--clr-border);
+  border-radius: 10px;
+  padding: .7rem .75rem;
+  font: inherit;
+  color: var(--clr-text);
+  background: #fff;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid rgba(155, 142, 196, 0.35);
+  outline-offset: 1px;
+  border-color: var(--clr-primary);
+}
+
+.contact-form button {
+  margin-top: .25rem;
+  border: 0;
+  border-radius: 10px;
+  padding: .75rem 1rem;
+  background: var(--clr-primary);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition);
+}
+
+.contact-form button:hover {
+  background: var(--clr-primary-d);
+}
+
 /* Last updated */
 .privacy-updated {
   text-align: center;
